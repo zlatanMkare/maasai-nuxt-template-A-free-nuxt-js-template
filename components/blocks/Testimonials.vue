@@ -4,7 +4,7 @@
                <b-row>
                     <b-col md="4">
                          <h4 class="title">Testimonials</h4>
-                         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                         <p>Even the all powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </b-col>
 
                     <b-col md="8">
