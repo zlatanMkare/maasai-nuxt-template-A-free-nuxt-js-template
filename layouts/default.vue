@@ -11,7 +11,7 @@
   import bottom from '../components/shared/Bottom'
 
   export default {
-    
+      
   }
 </script>
 

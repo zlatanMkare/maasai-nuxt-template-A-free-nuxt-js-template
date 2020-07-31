@@ -1,10 +1,12 @@
 <template>
-     <div class="my-8">
+     <div>
           <b-container>
                <b-row>
                     <b-col md="4">
+
                          <h4 class="title">Testimonials</h4>
                          <p>Even the all powerful pointing has no control about the blind texts it is an almost unorthographic.</p>
+
                     </b-col>
 
                     <b-col md="8">

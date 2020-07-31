@@ -1,9 +1,7 @@
 <template>
      <div>
           <!-- Page header -->
-          <pageheader>
-               <h1 class="title">Contact Us</h1>
-          </pageheader>
+          <pageheader>Contact Us</pageheader>
 
           <!-- Contact Block -->
           <contact class="my-6"></contact>

@@ -40,3 +40,23 @@ p {
      line-height: 1.5;
      font-weight: 900;
 }
+
+/*=====================  Page Transitions  =========================*/
+// .page-enter-active,
+// .page-leave-active {
+//   transition: all 0.25s ease;
+// }
+
+// .page-enter,
+// .page-leave-active {
+//   opacity: 0;
+//   transform: translateZ(0);
+//   backface-visibility: hidden;
+// }
+
+.animate {
+     transition-delay: .2s;
+     transition-duration: .25s;
+     transition-timing-function: ease-in;
+}
+

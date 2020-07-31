@@ -33,13 +33,16 @@
 </template>
 
 <script>
- export default {
+import { gsap } from "gsap"
+
+export default {
     data() {
       return {
         slide: 0,
         sliding: null
       }
     },
+
     methods: {
       onSlideStart(slide) {
         this.sliding = true
@@ -47,6 +50,10 @@
       onSlideEnd(slide) {
         this.sliding = false
       }
+    },
+
+    mounted () {
+         gsap.fromTo('.carousel-caption',{opacity:0, x: -15 }, {opacity: 1 , x: 0 , duration: .85 });
     }
   }
 </script>
