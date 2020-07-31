@@ -1,12 +1,10 @@
 <template>
      <div>
           <!-- Page header -->
-          <pageheader>
-               <h1 class="title">About Us</h1>
-          </pageheader>
+          <pageheader>About Us</pageheader>
 
           <!-- Section About -->
-          <rightBlock  class="mt-6 mb-6" image-src="https://colorlib.com/preview/theme/mosaic/images/bg_1.jpg">
+          <rightBlock  class="mt-6" image-src="https://colorlib.com/preview/theme/mosaic/images/bg_1.jpg">
                <template v-slot:title>
                     <h3 class="title">Simple but powerful</h3>
                </template>
@@ -16,8 +14,12 @@
                </template>
           </rightBlock>
 
+          <div class="my-8"></div>
+
           <!-- Section testimonials -->
           <testimonials></testimonials>
+
+          <div class="my-7"></div>
 
           <!-- Section Countdown -->
           <countdown></countdown>

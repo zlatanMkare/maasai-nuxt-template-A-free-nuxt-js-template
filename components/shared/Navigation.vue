@@ -44,7 +44,7 @@ export default {
      .logo {
           a {
                font-weight: 800;
-               color: #000;
+               color: #2a2b59;
                text-decoration: none;
                font-size: 25px;
           }

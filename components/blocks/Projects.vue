@@ -12,7 +12,7 @@
                </b-row>
 
                <b-row class="my-5">
-                    <b-col class="my-3" cols="12" md="4" v-for="project in projects" :key="project.title">
+                    <b-col class="my-3" cols="12" md="4" v-for="project in projects" :key="project.id">
                          <div class="project">
                               <b-img :src="project.img" fluid></b-img> 
                               <div class="description">
@@ -27,36 +27,43 @@
 </template>
 
 <script>
+
 export default {
      data () {
           return {
                projects: [
                     {
+                         id: 1,
                          img: 'https://colorlib.com/preview/theme/mosaic/images/work-1.jpg',
                          title: 'Interior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
+                         id: 2,
                          img: 'https://colorlib.com/preview/theme/mosaic/images/work-2.jpg',
                          title: 'Exterior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
+                         id: 3,
                          img: 'https://colorlib.com/preview/theme/mosaic/images/work-3.jpg',
                          title: 'Office Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
+                         id: 4,
                          img: 'https://colorlib.com/preview/theme/mosaic/images/work-3.jpg',
                          title: 'Interior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
+                         id: 5,
                          img: 'https://colorlib.com/preview/theme/mosaic/images/work-2.jpg',
                          title: 'Exterior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
+                         id: 6,
                          img: 'https://colorlib.com/preview/theme/mosaic/images/work-1.jpg',
                          title: 'Office Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'

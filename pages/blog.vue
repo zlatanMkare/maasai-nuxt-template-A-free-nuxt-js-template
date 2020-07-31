@@ -1,9 +1,7 @@
 <template>
      <div>
           <!-- Page header -->
-          <pageheader>
-               <h1 class="title">Our blog</h1>
-          </pageheader>
+          <pageheader>Our blog</pageheader>
      </div>
 </template>
 

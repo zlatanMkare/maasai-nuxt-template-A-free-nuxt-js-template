@@ -1,9 +1,7 @@
 <template>
      <div>
           <!-- Page header -->
-          <pageheader>
-               <h1 class="title">What we offer</h1>
-          </pageheader>
+          <pageheader>What we offer</pageheader>
 
           <!-- Section Services -->
           <services></services>
