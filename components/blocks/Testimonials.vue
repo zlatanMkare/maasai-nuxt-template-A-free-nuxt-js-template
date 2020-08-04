@@ -1,9 +1,12 @@
 <template>
-     <div>
+     <div data-aos="fade-in"
+     data-aos-delay="50"
+     data-aos-duration="5000"
+     data-aos-easing="ease-in-sine">
           <b-container>
                <b-row>
                     <b-col md="4">
-                         <h4 v-animate="'fade-in-left'" class="title">Testimonials</h4>
+                         <h4 class="title">Testimonials</h4>
                          <p>Even the all powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                     </b-col>
 

@@ -36,7 +36,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '@/plugins/vue-animate.js'
+    '@/plugins/aos.js'
   ],
   /*
   ** Auto import components

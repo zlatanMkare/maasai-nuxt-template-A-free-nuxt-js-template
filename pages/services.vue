@@ -4,7 +4,7 @@
           <pageheader>What we offer</pageheader>
 
           <!-- Section Services -->
-          <services></services>
+          <services class="mt-6"></services>
 
           <!-- Section Projects -->
           <projects class="my-8"></projects>

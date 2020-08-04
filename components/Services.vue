@@ -1,5 +1,8 @@
 <template>
-     <div class="my-8">
+     <div data-aos="fade-in"
+     data-aos-delay="50"
+     data-aos-duration="5000"
+     data-aos-easing="linear">
           <b-container>
                <b-row>
                     <b-col md="4">

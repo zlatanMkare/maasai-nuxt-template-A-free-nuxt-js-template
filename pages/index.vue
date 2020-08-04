@@ -24,7 +24,7 @@
       <countdown></countdown>
 
       <!-- Section Services -->
-      <services></services>
+      <services class="my-8"></services>
 
       <!-- Content Block -->
       <rightBlock image-src="https://colorlib.com/preview/theme/mosaic/images/bg_1.jpg">
@@ -37,8 +37,12 @@
         </template>
       </rightBlock>
 
+      <div class="my-8"></div>
+
       <!-- Section testimonials -->
       <testimonials></testimonials>
+
+      <div class="my-7"></div>
 
       
     </div>

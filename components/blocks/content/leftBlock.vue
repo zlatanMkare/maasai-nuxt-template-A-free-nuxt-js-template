@@ -1,5 +1,8 @@
 <template>
-     <div>
+     <div data-aos="fade-in"
+     data-aos-delay="50"
+     data-aos-duration="5000"
+     data-aos-easing="ease-in-cubic">
           <b-container>
                <b-row align-items-center>
                     <b-col md="6" class="py-3 px-3">
