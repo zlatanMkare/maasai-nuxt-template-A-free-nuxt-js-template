@@ -1,5 +1,8 @@
 <template>
-     <div>
+     <div data-aos="fade-in"
+     data-aos-delay="50"
+     data-aos-duration="5000"
+     data-aos-easing="ease-in-sine">
           <b-container>
                <b-row>
                     <b-col md="4">
