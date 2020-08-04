@@ -83,8 +83,7 @@ export default {
                     font-size: 18px;
                     line-height: 1.5;
                     font-weight: 300;
-                    color: #494a71;
-                    opacity: 80%;
+                    color: rgba(73, 74, 113, 0.8);
                }
           }
           .carousel-indicators {
