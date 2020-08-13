@@ -63,5 +63,6 @@ export default {
           cursor: pointer;
           margin: 10px;
           background: #f9fdf5;
+          box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.12);
      }
 </style>

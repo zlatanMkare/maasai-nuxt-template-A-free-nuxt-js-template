@@ -30,7 +30,7 @@ const createStore = () => {
           actions: {
                fetchPosts({commit}) {
                     return new Promise((resolve,reject) => {
-                         http.get('https://newsapi.org/v2/everything?q=technology&apiKey=1cfe055609384e6085e6fbf59db999b5')
+                         http.get('https://gnews.io/api/v3/search?q=example&token=fb4cacfb4fc532eb8201c3813c579d8b')
                          .then(response=>{
                               commit('SET_POSTS', response.data.articles)
                               console.log(response.data)

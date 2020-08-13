@@ -37,37 +37,37 @@ export default {
                projects: [
                     {
                          id: 1,
-                         img: 'https://colorlib.com/preview/theme/mosaic/images/work-1.jpg',
+                         img: '/pic_1.jpg',
                          title: 'Interior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
                          id: 2,
-                         img: 'https://colorlib.com/preview/theme/mosaic/images/work-2.jpg',
+                         img: '/pic_3.png',
                          title: 'Exterior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
                          id: 3,
-                         img: 'https://colorlib.com/preview/theme/mosaic/images/work-3.jpg',
+                         img: '/pic_4.jpg',
                          title: 'Office Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
                          id: 4,
-                         img: 'https://colorlib.com/preview/theme/mosaic/images/work-3.jpg',
+                         img: '/pic_3.png',
                          title: 'Interior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
                          id: 5,
-                         img: 'https://colorlib.com/preview/theme/mosaic/images/work-2.jpg',
+                         img: '/pic_4.jpg',
                          title: 'Exterior Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     },
                     {
                          id: 6,
-                         img: 'https://colorlib.com/preview/theme/mosaic/images/work-1.jpg',
+                         img: '/pic_3.png',
                          title: 'Office Design',
                          description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
                     }
@@ -82,6 +82,11 @@ export default {
           position: relative;
           cursor: pointer;
           overflow: hidden;
+
+          img {
+               max-height: 400px;
+               min-height: 400px;
+          }
 
           .description {
                position: absolute;

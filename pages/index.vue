@@ -4,7 +4,7 @@
       <slider></slider>
 
       <!-- Section About -->
-      <rightBlock class="my-8" image-src="https://colorlib.com/preview/theme/mosaic/images/bg_3.jpg">
+      <rightBlock class="my-8" image-src="/pic_4.jpg">
          <template v-slot:title>
             <h3 class="title">About Maasai</h3>
         </template>
@@ -27,7 +27,7 @@
       <services class="my-8"></services>
 
       <!-- Content Block -->
-      <rightBlock image-src="https://colorlib.com/preview/theme/mosaic/images/bg_1.jpg">
+      <rightBlock image-src="/pic_3.png">
          <template v-slot:title>
             <h3 class="title">Simple enough</h3>
         </template>

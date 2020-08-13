@@ -4,7 +4,7 @@
           <pageheader>About Us</pageheader>
 
           <!-- Section About -->
-          <rightBlock  class="mt-6" image-src="https://colorlib.com/preview/theme/mosaic/images/bg_1.jpg">
+          <rightBlock  class="mt-6" image-src="/pic_1.jpg">
                <template v-slot:title>
                     <h3 class="title">Simple but powerful</h3>
                </template>
