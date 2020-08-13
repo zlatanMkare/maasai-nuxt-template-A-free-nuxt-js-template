@@ -15,7 +15,7 @@
                <b-carousel-slide
                     caption="We love modern design"
                     text="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-                    img-src="https://colorlib.com/preview/theme/mosaic/images/bg_2.jpg"
+                    img-src="/pic_3.png"
                >
                     <b-button pill variant='primary' size="lg" to="#projects">Read More</b-button>
                </b-carousel-slide>
@@ -24,10 +24,10 @@
                <b-carousel-slide
                     caption="We create amazing designs"
                     text="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-                    img-src="https://colorlib.com/preview/theme/mosaic/images/bg_2.jpg"
+                    img-src="/pic_1.jpg"
                >
                     <b-button pill variant='primary' size="lg" to="#projects">Read More</b-button>
-               </b-carousel-slide>
+               </b-carousel-slide> 
           </b-carousel>
           </div>
 </template>
@@ -53,7 +53,7 @@ export default {
     },
 
     mounted () {
-         gsap.fromTo('.carousel-caption',{opacity:0, x: -15 }, {opacity: 1 , x: 0 , duration: .85 });
+         gsap.fromTo('.carousel-caption',{opacity:0, y: 15 }, {opacity: 1 , y: 0 , duration: .55 });
     }
   }
 </script>
@@ -64,6 +64,7 @@ export default {
                width: 65% !important;
                float: right !important;
                min-height: 50vh;
+               height: 700px;
           }
           .carousel-caption {
                    position: absolute;
@@ -89,6 +90,21 @@ export default {
           .carousel-indicators {
                li {
                     background-color: #000 !important;
+               }
+          }
+     }
+
+     @media (max-width: 480px) {
+          #carousel-1 {
+               img {
+                    width: 100% !important;
+               }
+               .carousel-caption {
+                    width: 100% !important;
+                    padding: 15px;
+                    h3 {
+                         font-size: 50px;
+                    }
                }
           }
      }

@@ -3,7 +3,7 @@
           <div class="container">
                <b-navbar-brand class="logo">
                     <nuxt-link to="/">
-                         Maasai.
+                         {{title}}
                     </nuxt-link>
                </b-navbar-brand>
 
@@ -37,6 +37,12 @@
 
 export default {
      name: 'navbar',
+
+     data () {
+          return {
+               title: 'Maasai.'
+          }
+     }
 }
 </script>
 
@@ -61,6 +67,14 @@ export default {
                color: #000;
                opacity: 1!important;
                text-decoration: none;
+          }
+     }
+
+     @media (max-width: 480px) {
+          .nav {
+               a {
+                    padding: 10px 0;
+               }
           }
      }
 </style>

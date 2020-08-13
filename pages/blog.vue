@@ -5,10 +5,10 @@
 
           <b-container>
                <b-row>
-                    <b-col class="my-6" md="4" v-for="post in posts" :key="post.publishedAt">
+                    <b-col class="my-6 post" md="4" v-for="post in posts" :key="post.publishedAt">
                          <b-card
                               :title="post.title"
-                              :img-src="post.urlToImage"
+                              :img-src="post.image"
                               img-alt="Image"
                               img-top
                               tag="article"
@@ -48,5 +48,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-     
+     .post {
+          img {
+               max-height: 200px;
+          }
+     }
 </style>

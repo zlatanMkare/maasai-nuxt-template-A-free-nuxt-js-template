@@ -62,6 +62,7 @@ export default {
           border-radius: 5px;
           margin: 10px;
           color: #292a59;
+          box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.12);
           h4 {
                font-size: 20px;
           }

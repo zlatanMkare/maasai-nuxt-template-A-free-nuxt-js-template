@@ -5,7 +5,7 @@
      data-aos-easing="ease-in-cubic">
           <b-container>
                <b-row align-items-center>
-                    <b-col md="6" class="py-3 px-3">
+                    <b-col md="6" class="py-3 px-3 align-self-center">
                          <slot name="title"></slot>
                          <slot name="p"></slot>
                          <slot name="button"></slot>
