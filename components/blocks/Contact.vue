@@ -2,7 +2,7 @@
      <div>
           <b-container>
                <b-row>
-                    <b-col md="6">
+                    <b-col class="contact-info" md="6">
                          <div data-aos="fade-in"
                          data-aos-delay="50"
                          data-aos-duration="5000"
@@ -86,7 +86,12 @@ export default {
 <style lang="scss" scoped>
      .contact-form {
           border-radius: 5px;
-          background: #f9fdf5;
+          background: #ffffff;
           box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.12);
+     }
+     .contact-info {
+          h3 {
+               color: #2b2b58;
+          }
      }
 </style>

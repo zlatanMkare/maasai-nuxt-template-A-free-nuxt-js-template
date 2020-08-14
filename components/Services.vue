@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss">
      .box {
-          background: #f9fdf5;
+          background: #fff;
           padding: 20px;
           border-radius: 5px;
           margin: 10px;
