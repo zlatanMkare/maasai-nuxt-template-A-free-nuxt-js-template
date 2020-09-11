@@ -13,8 +13,8 @@
 
 <script>
 import Pageheader from '../components/blocks/PageHeader'
-import Services from '../components/Services'
-import Countdown from '../components/Countdown'
+import Services from '../components/blocks/Services'
+import Countdown from '../components/blocks/Countdown'
 import Projects from '../components/blocks/Projects'
 
 export default {

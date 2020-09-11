@@ -5,10 +5,9 @@
 
           <b-container>
                <b-row>
-                    <b-col class="my-6 post" md="4" v-for="post in posts" :key="post.publishedAt">
+                    <b-col class="my-3 post" md="4" v-for="post in posts" :key="post.publishedAt">
                          <b-card
                               :title="post.title"
-                              :img-src="post.image"
                               img-alt="Image"
                               img-top
                               tag="article"

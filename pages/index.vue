@@ -4,7 +4,7 @@
       <slider></slider>
 
       <!-- Section About -->
-      <rightBlock class="my-8" image-src="/pic_4.jpg">
+      <rightBlock class="my-6" image-src="/pic_4.jpg">
          <template v-slot:title>
             <h3 class="title">About Maasai</h3>
         </template>
@@ -24,7 +24,7 @@
       <countdown></countdown>
 
       <!-- Section Services -->
-      <services class="my-8"></services>
+      <services class="my-6"></services>
 
       <!-- Content Block -->
       <rightBlock image-src="/pic_3.png">
@@ -37,25 +37,28 @@
         </template>
       </rightBlock>
 
-      <div class="my-8"></div>
+      <div class="my-6"></div>
 
       <!-- Section testimonials -->
       <testimonials></testimonials>
 
-      <div class="my-7"></div>
+      <div class="my-6"></div>
+
+      <pricing-table></pricing-table>
 
       
     </div>
 </template>
 
 <script>
-import slider from '../components/Slider'
-import countdown from '../components/Countdown'
-import services from '../components/Services'
+import slider from '../components/blocks/Slider'
+import countdown from '../components/blocks/Countdown'
+import services from '../components/blocks/Services'
 import testimonials from '../components/blocks/Testimonials'
 import rightBlock from '../components/blocks/content/rightBlock'
 import leftBlock from '../components/blocks/content/leftBlock'
 import projects from '../components/blocks/Projects'
+import pricingTable from '../components/blocks/PricingTable'
 
 export default {
     components: {
@@ -65,7 +68,8 @@ export default {
       testimonials,
       rightBlock,
       leftBlock,
-      projects
+      projects,
+      pricingTable
     }
 }
 </script>

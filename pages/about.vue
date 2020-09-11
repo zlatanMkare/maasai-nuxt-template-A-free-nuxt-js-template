@@ -31,7 +31,7 @@ import Pageheader from '../components/blocks/PageHeader'
 import rightBlock from '../components/blocks/content/rightBlock'
 import leftBlock from '../components/blocks/content/leftBlock'
 import testimonials from '../components/blocks/Testimonials'
-import countdown from '../components/Countdown'
+import countdown from '../components/blocks/Countdown'
 
 export default {
      components: {
