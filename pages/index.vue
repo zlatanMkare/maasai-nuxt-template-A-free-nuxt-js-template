@@ -4,7 +4,7 @@
       <slider></slider>
 
       <!-- Section About -->
-      <rightBlock class="my-6" image-src="/pic_4.jpg">
+      <rightBlock class="my-8" image-src="/pic_4.jpg">
          <template v-slot:title>
             <h3 class="title">About Maasai</h3>
         </template>
@@ -21,13 +21,13 @@
       <projects id="projects" class="my-8"></projects>
 
       <!-- Section Countdown -->
-      <countdown></countdown>
+      <countdown class="my-8"></countdown>
 
       <!-- Section Services -->
-      <services class="my-6"></services>
+      <services class="my-8"></services>
 
       <!-- Content Block -->
-      <rightBlock image-src="/pic_3.png">
+      <rightBlock class="my-8" image-src="/pic_3.png">
          <template v-slot:title>
             <h3 class="title">Simple enough</h3>
         </template>
@@ -37,15 +37,10 @@
         </template>
       </rightBlock>
 
-      <div class="my-6"></div>
-
       <!-- Section testimonials -->
-      <testimonials></testimonials>
+      <testimonials class="my-8"></testimonials>
 
-      <div class="my-6"></div>
-
-      <pricing-table></pricing-table>
-
+      <pricing-table class="my-8"></pricing-table>
       
     </div>
 </template>
