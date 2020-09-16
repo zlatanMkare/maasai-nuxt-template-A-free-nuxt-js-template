@@ -21,13 +21,13 @@
       <projects id="projects" class="my-8"></projects>
 
       <!-- Section Countdown -->
-      <countdown></countdown>
+      <countdown class="my-8"></countdown>
 
       <!-- Section Services -->
       <services class="my-8"></services>
 
       <!-- Content Block -->
-      <rightBlock image-src="/pic_3.png">
+      <rightBlock class="my-8" image-src="/pic_3.png">
          <template v-slot:title>
             <h3 class="title">Simple enough</h3>
         </template>
@@ -37,25 +37,23 @@
         </template>
       </rightBlock>
 
-      <div class="my-8"></div>
-
       <!-- Section testimonials -->
-      <testimonials></testimonials>
+      <testimonials class="my-8"></testimonials>
 
-      <div class="my-7"></div>
-
+      <pricing-table class="my-8"></pricing-table>
       
     </div>
 </template>
 
 <script>
-import slider from '../components/Slider'
-import countdown from '../components/Countdown'
-import services from '../components/Services'
+import slider from '../components/blocks/Slider'
+import countdown from '../components/blocks/Countdown'
+import services from '../components/blocks/Services'
 import testimonials from '../components/blocks/Testimonials'
 import rightBlock from '../components/blocks/content/rightBlock'
 import leftBlock from '../components/blocks/content/leftBlock'
 import projects from '../components/blocks/Projects'
+import pricingTable from '../components/blocks/PricingTable'
 
 export default {
     components: {
@@ -65,7 +63,8 @@ export default {
       testimonials,
       rightBlock,
       leftBlock,
-      projects
+      projects,
+      pricingTable
     }
 }
 </script>

@@ -1,6 +1,7 @@
 $spacer: 1rem !default;
 $spacers: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
+// add more spacing options to Bootstrap 
 $spacers: map-merge(
   (
     6: ($spacer * 4),
@@ -10,6 +11,7 @@ $spacers: map-merge(
   $spacers
 );
 
+// change the theme colors here
 $theme-colors: (
   "primary": #F14766,
   "danger": #f54336,
