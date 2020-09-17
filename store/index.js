@@ -1,5 +1,6 @@
 import Vuex from 'vuex'
 import axios from 'axios'
+import config from './config'
 import { cacheAdapterEnhancer, throttleAdapterEnhancer } from 'axios-extensions';
 
 const http = axios.create({
@@ -30,13 +31,11 @@ const createStore = () => {
           actions: {
                fetchPosts({commit}) {
                     return new Promise((resolve,reject) => {
-                         http.get('https://gnews.io/api/v3/search?q=example&token=fb4cacfb4fc532eb8201c3813c579d8b')
+                         http.get('https://gnews.io/api/v3/search?q=example&token=' + config.token)
                          .then(response=>{
                               commit('SET_POSTS', response.data.articles)
-                              console.log(response.data)
                               resolve()
                          }).catch(e => {
-                              console.log(e);
                               reject()
                          });  
                     })

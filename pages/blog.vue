@@ -5,7 +5,10 @@
 
           <b-container>
                <b-row>
-                    <b-col class="my-3 post" md="4" v-for="post in posts" :key="post.publishedAt">
+                    <b-col v-if="posts.length == 0" cols="12" class="text-center my-5">
+                         <b-spinner variant="primary" large label="Spinning"></b-spinner>
+                    </b-col>
+                    <b-col v-else class="my-3 post" md="4" v-for="post in posts" :key="post.publishedAt">
                          <b-card
                               :title="post.title"
                               img-alt="Image"

@@ -27,16 +27,18 @@
                </b-row>
 
                <b-row class="mt-2 mb-5 pricing">
-                    <div class="price text-center" v-for="(pricing, index) in this.selected" :key="index">
-                         <h2>{{pricing.plan}}</h2>
-                         <p class="text-uppercase">{{ pricing.slogan }}</p>
-                         <ul class="list-unstyled">
-                              <li v-for="benefit in pricing.benefits" :key="benefit.id">
-                                   {{ benefit }}
-                              </li>
-                         </ul>
-                         <b-button variant="primary">{{ pricing.btnText }}</b-button>
-                    </div>
+                    <b-col class="col-md-4 col-12" v-for="(pricing, index) in this.selected" :key="index">
+                         <b-col class="price text-center">
+                              <h2>{{pricing.plan}}</h2>
+                              <p class="text-uppercase">{{ pricing.slogan }}</p>
+                              <ul class="list-unstyled">
+                                   <li v-for="benefit in pricing.benefits" :key="benefit.id">
+                                        {{ benefit }}
+                                   </li>
+                              </ul>
+                              <b-button variant="primary">{{ pricing.btnText }}</b-button>
+                         </b-col>
+                    </b-col>
                </b-row>
 
           </b-container>
@@ -150,7 +152,7 @@ export default {
                background: #f5f5f5;
                border-radius: 5px;
                padding: 30px;
-               margin: 10px;
+               margin: 10px 0;
                p {
                     font-size: 12px;
                }
